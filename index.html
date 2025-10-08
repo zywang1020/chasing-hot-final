@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>熱感偵探 (Chasing Hot)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>☀️ 熱感偵探</h1>
+            <p>即時分析您所在位置，尋找最近的氣象站，<br>提供最準確的現場觀測資料。</p>
+        </header>
+        
+        <main>
+            <button id="detect-button">尋找最近的氣象站</button>
+            <div id="loader" class="hidden"></div>
+            <div id="status-message"></div>
+            <div id="results-container" class="hidden">
+                </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Zheng-Yi, Wang Chasing Hot Project</p>
+    </footer>
+
+    <script src="calculations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
